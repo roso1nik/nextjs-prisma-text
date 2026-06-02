@@ -16,3 +16,6 @@ npx prisma migrate dev --name init
 
 npx prisma generate
 npx prisma studio
+
+
+DATABASE_URL="postgresql:// postgres: mysecretpassword@localhost:5432/ postgres?schema=public"
